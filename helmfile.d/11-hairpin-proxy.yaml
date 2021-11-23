@@ -1,0 +1,7 @@
+environments:
+  production:
+  ci:
+
+releases:
+- name: hairpin-proxy
+  chart: ../charts/hairpin-proxy
