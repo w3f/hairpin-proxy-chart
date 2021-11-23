@@ -22,7 +22,7 @@ haproxy:
   service:
     type: ClusterIP
     port: 80
-  targetServer: "ingress-nginx-controller.ingress-nginx.svc.cluster.local"
+  targetServer: "nginx-ingress-ingress-nginx-controller.default.svc.cluster.local"
 
 controller:
   replicaCount: 1
